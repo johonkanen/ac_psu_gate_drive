@@ -1,0 +1,134 @@
+[
+ {
+  "source": "bom",
+  "comment": "10k",
+  "refs": "R1,R3,R6,R8,R9,R10,R11",
+  "code": "C25804",
+  "need": 35,
+  "stock": 46335661,
+  "type": "base",
+  "mpn": "0603WAF1002T5E",
+  "describe": "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "22R",
+  "refs": "R4,R12",
+  "code": "C17958",
+  "need": 10,
+  "stock": 599124,
+  "type": "base",
+  "mpn": "1206W4F220JT5E",
+  "describe": "-55℃~+155℃ 200V 22Ω 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "3R",
+  "refs": "R2,R5",
+  "code": "C17939",
+  "need": 10,
+  "stock": 53623,
+  "type": "expand",
+  "mpn": "1206W4F300KT5E",
+  "describe": "-55℃~+155℃ 200V 250mW 3Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "100nF 50V X7R",
+  "refs": "C5,C6,C12",
+  "code": "C14663",
+  "need": 15,
+  "stock": 39420656,
+  "type": "base",
+  "mpn": "CC0603KRX7R9BB104",
+  "describe": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "4.7uF 25V X5R",
+  "refs": "C1,C2,C3,C4",
+  "code": "C5360844",
+  "need": 20,
+  "stock": 409803,
+  "type": "expand",
+  "mpn": "TCC0603X5R475K250CT",
+  "describe": "25V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "4.7uF 50V X7R",
+  "refs": "C7",
+  "code": "C29823",
+  "need": 5,
+  "stock": 757113,
+  "type": "base",
+  "mpn": "1206B475K500NT",
+  "describe": "4.7uF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "100nF 50V X7R",
+  "refs": "C8",
+  "code": "C24497",
+  "need": 5,
+  "stock": 1253085,
+  "type": "base",
+  "mpn": "CL31B104KBCNNNC",
+  "describe": "100nF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "ZLLS400TA",
+  "refs": "D1,D2,D3,D4",
+  "code": "C460267",
+  "need": 20,
+  "stock": 2012,
+  "type": "expand",
+  "mpn": "ZLLS400TA",
+  "describe": "1 Independent 10uA@30V 12A 40V 520mA 800mV@1.5A SOD-323 Schottky Diodes ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "MMSZ5228BS-7-F",
+  "refs": "D5,D6,D7,D8",
+  "code": "C2895358",
+  "need": 20,
+  "stock": 2554,
+  "type": "expand",
+  "mpn": "MMSZ5228BS-7-F",
+  "describe": "-65℃~+150℃ 1 Independent 1.9kΩ 10uA@1V 200mW 23Ω 3.71V~4.1V 3.9V SOD-323 Zener Diodes ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "SI8271AB-ISR",
+  "refs": "DRV1,DRV2",
+  "code": "C17275034",
+  "need": 10,
+  "stock": 89,
+  "type": "expand",
+  "mpn": "SI8271AB-ISR",
+  "describe": "-40℃~+125℃ 1 1.8A 10.5ns 13.3ns 4A SOIC-8 Gate Drivers ROHS"
+ },
+ {
+  "source": "hand",
+  "comment": "IXDD609D2TR",
+  "refs": "DRV3",
+  "code": "C2653792",
+  "need": 5,
+  "stock": 0,
+  "type": "expand",
+  "mpn": "IXDD609D2TR",
+  "describe": "-40℃~+125℃ 1 15ns 200uA 22ns 4.5V~35V 9A 9A IGBT、MOSFET Low Side DFN-8-EP(4x5) Gate Drivers ROHS"
+ },
+ {
+  "source": "hand",
+  "comment": "1.27mm 2x17 male pin header, THT (HC-PM127-4.3H-2x17PZ)",
+  "refs": "J9",
+  "code": "C27985217",
+  "need": 5,
+  "stock": 116,
+  "type": "expand",
+  "mpn": "HC-PM127-4.3H-2x17PZ",
+  "describe": "-40℃~+105℃ 1.27mm 1.27mm 1A 2 2.4mm 2x17P 34P 4.3mm Gold Phosphor Bronze Square Hole Through Hole Top Plugin,P=1.27mm Female Headers ROHS"
+ }
+]

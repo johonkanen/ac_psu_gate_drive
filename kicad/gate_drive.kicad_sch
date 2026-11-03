@@ -1,0 +1,113 @@
+(kicad_sch
+	(version 20260101)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a79fff77-0f9b-443c-8e72-615735982325")
+	(paper "A3")
+	(title_block
+		(title "Half-bridge gate driver, asymmetric gate supply")
+		(company "gate_drive_power_asym_fb")
+		(rev "V3_ee10")
+		(comment 1 "Redrawn from Proteus gate_drive_power_asym_fb_v3_ee10")
+	)
+	(lib_symbols)
+	(text "Half-bridge gate driver V3_ee10 - redrawn from Proteus. One sheet per Proteus PDF page.\nNet names follow the IPC-D-356A netlist (reference/pins_by_net.md)."
+		(exclude_from_sim no)
+		(at 25.4 22.86 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3894e26-6649-49e2-a6f8-19497545a532")
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 76.2 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "55b632fd-2699-42db-884b-d6ab8f058b0f")
+		(property "Sheetname" "01 Gate drivers"
+			(at 25.4 37.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_gate_drivers.kicad_sch"
+			(at 25.4 59.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gate_drive"
+				(path "/a79fff77-0f9b-443c-8e72-615735982325"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 38.1)
+		(size 76.2 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "82cb71c2-f762-4c61-a710-cfb042a43a7e")
+		(property "Sheetname" "02 Gate supply"
+			(at 152.4 37.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_gate_supply.kicad_sch"
+			(at 152.4 59.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gate_drive"
+				(path "/a79fff77-0f9b-443c-8e72-615735982325"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

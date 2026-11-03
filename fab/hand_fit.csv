@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,Source,Note
+"Gate supply toroid 10/6/4: primary 8t, 2 x secondary 12t + 4t",(J1-J8 wire pads),wire pads 1.27 mm / drill 0.762,wound by the user,"leads soldered into J1-J8 (see sheet 2 note); not a BOM part"
+IXDD609D2TR,DRV3,DFN-8-1EP 4x5 (IXYS D2),"Mouser/Digikey (JLC C2653792: 0 in stock 2026-11-03; no other DFN-8 IXDD609 at JLC)","hand-solder (thermal pad) or consign to JLC; JLC stocks only the SOIC-8/DIP/TO versions (a different footprint)"
+"1.27mm 2x17 male pin header, THT (HC-PM127-4.3H-2x17PZ)",J9,PinHeader 2x24 P1.27 partial (pins 15-48),"JLC C27985217 (116 in stock 2026-11-03) or distributor","male (user, 2026-11-03), mates with the baseboard's female 2x24 sockets; the footprint has no holes for pins 27/28/41/42: clip those 4 pins (columns 7 and 14 from the pin 15/16 end) before fitting"

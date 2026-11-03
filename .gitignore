@@ -1,0 +1,18 @@
+# KiCad
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*-backups/
+_autosave-*
+fp-info-cache
+*.lck
+
+# Scratch
+__pycache__/
+*.pyc
+build/
+
+# Generated reports
+reports/erc.rpt
+reports/drc.json
+fab/out/

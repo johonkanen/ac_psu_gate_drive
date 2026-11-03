@@ -1,0 +1,74 @@
+Gerber round trip: KiCad plot of kicad/gate_drive.kicad_pcb vs the Proteus CADCAM gerbers
+raster 0.025 mm/px, tolerance 0.05 mm, clusters >= 0.01 mm^2 counted, positions in the IPC frame (mm, Y up)
+board outline -23.254 .. -0.843 x 6.1 .. 41.0 mm
+
+== F.Cu: Proteus copper 258.7 mm^2, KiCad copper 265.7 mm^2
+   raw XOR 12.92 mm^2; after 0.05 mm tolerance: only Proteus 0.88 mm^2, only KiCad 6.70 mm^2, 157 clusters (105 below 0.01 mm^2)
+   pad shape    52 clusters, 7.29 mm^2
+   coverage: Proteus 859 draws / 136 flashes, 0 not on KiCad copper (0 explained by clearance / pad shape); KiCad 406 draws / 136 flashes, 0 not on Proteus copper (0 explained by pad shape)
+   pad shape    17 clusters, only KiCad   4.90 mm^2, only Proteus   0.00 mm^2  gate_drive:D_SOD-323_AC  (7 parts: D1 D3 D4 D5 D6 D7 ...)
+   pad shape     6 clusters, only KiCad   1.80 mm^2, only Proteus   0.00 mm^2  Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder  (2 parts: C7 C8)
+   pad shape    11 clusters, only KiCad   0.00 mm^2, only Proteus   0.37 mm^2  Resistor_SMD:R_0603_1608Metric  (5 parts: R1 R10 R11 R3 R9)
+   pad shape    17 clusters, only KiCad   0.00 mm^2, only Proteus   0.21 mm^2  Capacitor_SMD:C_0603_1608Metric  (7 parts: C1 C12 C2 C3 C4 C5 ...)
+   pad shape     1 clusters, only KiCad   0.00 mm^2, only Proteus   0.01 mm^2  Resistor_SMD:R_1206_3216Metric  (1 parts: R4)
+   pad shape  only KiCad    0.454 mm^2 at (  -2.481,   38.979) 1.35x1.83 mm  near C7-1 (GND) 0.06 mm, via (15V) 3.88 mm
+   pad shape  only KiCad    0.424 mm^2 at (  -5.575,   39.015) 1.35x1.83 mm  near C7-2 (15V) 0.10 mm, via (15V) 1.89 mm
+   pad shape  only KiCad    0.398 mm^2 at (  -5.192,   30.643) 1.35x1.83 mm  near C8-2 (15V) 0.38 mm, via (15V) 1.15 mm
+   pad shape  only KiCad    0.394 mm^2 at (  -7.790,   29.347) 1.03x1.03 mm  near D6-A (SOURCE_LO) 0.05 mm, via (15V) 2.24 mm
+   pad shape  only KiCad    0.386 mm^2 at ( -21.992,   23.105) 1.03x1.03 mm  near D8-A (DRV1_RET) 0.01 mm, via (DRV1_VCC) 3.48 mm
+   pad shape  only KiCad    0.386 mm^2 at ( -21.992,   20.495) 1.03x1.03 mm  near D8-C (SOURCE_HI) 0.01 mm, via (DRV1_RET) 2.36 mm
+   pad shape  only KiCad    0.373 mm^2 at (  -9.674,   28.595) 1.03x1.03 mm  near D1-A (#00042) 0.03 mm, via (DRV2_VCC) 2.40 mm
+   pad shape  only KiCad    0.373 mm^2 at ( -19.570,   28.453) 1.03x1.03 mm  near D3-A (#00044) 0.06 mm, via (DRV1_RET) 2.32 mm
+   pad shape  only KiCad    0.369 mm^2 at ( -21.457,   29.327) 1.03x1.03 mm  near D4-C (#00045) 0.09 mm, via (DRV1_RET) 2.16 mm
+   pad shape  only KiCad    0.344 mm^2 at ( -13.561,   28.391) 1.03x1.03 mm  near D5-C (SOURCE_LO) 0.11 mm, via (DRV2_RET) 3.02 mm
+   pad shape  only KiCad    0.333 mm^2 at ( -17.606,   28.530) 1.03x1.03 mm  near D7-A (SOURCE_HI) 0.10 mm, via (DRV1_VCC) 3.70 mm
+   pad shape  only KiCad    0.317 mm^2 at (  -7.674,   26.661) 1.03x1.03 mm  near D6-C (DRV2_VCC) 0.13 mm, via (DRV2_VCC) 2.08 mm
+   pad shape  only KiCad    0.317 mm^2 at ( -17.574,   25.868) 1.03x1.03 mm  near D7-C (DRV1_VCC) 0.13 mm, via (DRV1_VCC) 2.98 mm
+   pad shape  only KiCad    0.317 mm^2 at ( -13.609,   25.661) 1.03x1.03 mm  near D5-A (DRV2_RET) 0.12 mm, via (DRV2_RET) 2.06 mm
+   pad shape  only KiCad    0.232 mm^2 at (  -2.868,   30.859) 0.38x1.80 mm  near C8-1 (GND) 0.61 mm, via (GND) 0.61 mm
+   pad shape  only KiCad    0.216 mm^2 at (  -1.717,   30.975) 0.55x1.83 mm  near C8-1 (GND) 0.55 mm, via (GND) 0.84 mm
+   pad shape  only KiCad    0.196 mm^2 at ( -19.764,   26.007) 1.03x1.03 mm  near D3-C (DRV1_VCC) 0.20 mm, via (DRV1_VCC) 0.81 mm
+   pad shape  only KiCad    0.189 mm^2 at ( -21.095,   26.822) 0.33x1.03 mm  near D4-A (DRV1_RET) 0.41 mm, via (DRV1_RET) 0.53 mm
+   pad shape  only KiCad    0.188 mm^2 at ( -21.889,   26.819) 0.30x1.03 mm  near D4-A (DRV1_RET) 0.39 mm, via (DRV1_RET) 0.52 mm
+   pad shape  only KiCad    0.188 mm^2 at ( -10.089,   25.981) 0.30x1.03 mm  near D1-C (DRV2_VCC) 0.39 mm, via (DRV2_VCC) 0.45 mm
+   pad shape  only KiCad    0.184 mm^2 at (  -9.292,   25.973) 0.30x1.00 mm  near D1-C (DRV2_VCC) 0.41 mm, via (DRV2_VCC) 0.47 mm
+   pad shape  only KiCad    0.076 mm^2 at (  -5.986,   31.528) 0.35x0.70 mm  near C8-2 (15V) 0.81 mm, via (15V) 0.61 mm
+   pad shape  only Proteus  0.060 mm^2 at ( -14.917,   25.311) 0.93x0.15 mm  near R1-2 (GND) 0.42 mm, via (DRV2_RET) 3.41 mm
+   pad shape  only Proteus  0.060 mm^2 at (  -4.866,   25.061) 0.93x0.15 mm  near R3-2 (GND) 0.43 mm, via (GND) 3.72 mm
+   pad shape  only KiCad    0.048 mm^2 at ( -19.213,   25.522) 0.30x0.28 mm  near D3-C (DRV1_VCC) 0.54 mm, via (DRV1_VCC) 1.52 mm
+   pad shape  only Proteus  0.036 mm^2 at (  -4.773,   29.200) 0.12x0.90 mm  near R11-1 (PWM_TRANS) 0.42 mm, via (15V) 2.04 mm
+   pad shape  only Proteus  0.036 mm^2 at (  -9.285,   24.700) 0.12x0.90 mm  near R10-1 (DRV2_VCC) 0.42 mm, via (DRV2_VCC) 1.56 mm
+   pad shape  only Proteus  0.035 mm^2 at ( -19.835,   24.223) 0.12x0.62 mm  near R9-1 (DRV1_VCC) 0.47 mm, via (DRV1_VCC) 2.16 mm
+   pad shape  only Proteus  0.034 mm^2 at ( -11.852,   24.677) 0.12x0.90 mm  near R10-2 (DRV2_RET) 0.43 mm, via (DRV2_RET) 1.45 mm
+   pad shape  only Proteus  0.034 mm^2 at ( -22.427,   24.429) 0.12x0.90 mm  near R9-2 (DRV1_RET) 0.43 mm, via (DRV1_VCC) 2.64 mm
+   pad shape  only Proteus  0.021 mm^2 at (  -4.613,   22.478) 0.58x0.12 mm  near R3-1 (PWM_LO) 0.50 mm, via (GND) 3.13 mm
+   pad shape  only Proteus  0.019 mm^2 at (  -2.209,   28.917) 0.12x0.48 mm  near R11-2 (GND) 0.50 mm, via (GND) 2.43 mm
+   pad shape  only Proteus  0.016 mm^2 at (  -5.733,   24.235) 0.18x0.20 mm  near C6-2 (5V) 0.61 mm, via (GND) 2.53 mm
+   pad shape  only Proteus  0.016 mm^2 at ( -18.450,   23.684) 0.18x0.20 mm  near C5-1 (GND) 0.63 mm, via (DRV1_VCC) 3.32 mm
+   pad shape  only Proteus  0.016 mm^2 at ( -15.984,   23.684) 0.18x0.20 mm  near C5-2 (5V) 0.63 mm, via (DRV2_RET) 5.00 mm
+   pad shape  only Proteus  0.016 mm^2 at (  -5.733,   23.340) 0.18x0.20 mm  near C6-2 (5V) 0.62 mm, via (GND) 2.11 mm
+   pad shape  only Proteus  0.016 mm^2 at ( -18.450,   22.790) 0.18x0.20 mm  near C5-1 (GND) 0.62 mm, via (DRV1_VCC) 4.05 mm
+   pad shape  only Proteus  0.015 mm^2 at ( -14.562,   22.734) 0.33x0.12 mm  near R1-1 (PWM_HI) 0.56 mm, via (DRV2_RET) 4.48 mm
+   pad shape  only Proteus  0.014 mm^2 at ( -15.975,   22.795) 0.12x0.20 mm  near C5-2 (5V) 0.62 mm, via (DRV2_RET) 5.48 mm
+   pad shape  only Proteus  0.014 mm^2 at ( -15.280,   22.735) 0.30x0.12 mm  near R1-1 (PWM_HI) 0.56 mm, via (DRV2_RET) 4.99 mm
+   pad shape  only Proteus  0.013 mm^2 at (  -5.733,   11.421) 0.15x0.15 mm  near R4-2 (GATE_LO) 1.01 mm, via (SOURCE_LO) 6.91 mm
+   pad shape  only Proteus  0.011 mm^2 at (  -6.565,   37.233) 0.18x0.12 mm  near C12-2 (#00046) 0.61 mm, via (15V) 0.67 mm
+   pad shape  only Proteus  0.011 mm^2 at (  -7.455,   34.774) 0.15x0.15 mm  near C12-1 (GND) 0.62 mm, via (15V) 1.83 mm
+   pad shape  only Proteus  0.011 mm^2 at (  -8.180,   24.251) 0.15x0.15 mm  near C6-1 (GND) 0.63 mm, via (GND) 1.62 mm
+   pad shape  only Proteus  0.011 mm^2 at (  -8.180,   23.324) 0.15x0.15 mm  near C6-1 (GND) 0.63 mm, via (GND) 0.77 mm
+   pad shape  only Proteus  0.011 mm^2 at ( -22.355,   17.126) 0.15x0.15 mm  near C2-2 (DRV1_RET) 0.62 mm, via (DRV1_RET) 1.11 mm
+   pad shape  only Proteus  0.011 mm^2 at ( -20.855,   17.126) 0.15x0.15 mm  near C1-1 (DRV1_VCC) 0.62 mm, via (DRV1_VCC) 0.78 mm
+   pad shape  only Proteus  0.011 mm^2 at ( -12.555,   17.126) 0.15x0.15 mm  near C3-2 (DRV2_RET) 0.62 mm, via (DRV2_RET) 0.54 mm
+   pad shape  only Proteus  0.011 mm^2 at ( -22.355,   14.674) 0.15x0.15 mm  near C2-1 (SOURCE_HI) 0.62 mm, via (SOURCE_HI) 2.30 mm
+   pad shape  only Proteus  0.011 mm^2 at ( -20.855,   14.674) 0.15x0.15 mm  near C1-2 (SOURCE_HI) 0.62 mm, via (SOURCE_HI) 0.97 mm
+   pad shape  only Proteus  0.011 mm^2 at ( -12.555,   14.674) 0.15x0.15 mm  near C3-1 (SOURCE_LO) 0.62 mm, via (SOURCE_LO) 0.73 mm
+   pad shape  only Proteus  0.011 mm^2 at ( -11.055,   14.674) 0.15x0.15 mm  near C4-2 (SOURCE_LO) 0.62 mm, via (SOURCE_LO) 1.19 mm
+
+== B.Cu: Proteus copper 59.2 mm^2, KiCad copper 59.2 mm^2
+   raw XOR 0.00 mm^2; after 0.05 mm tolerance: only Proteus 0.00 mm^2, only KiCad 0.00 mm^2, 0 clusters (0 below 0.01 mm^2)
+   coverage: Proteus 50 draws / 55 flashes, 0 not on KiCad copper (0 explained by clearance / pad shape); KiCad 46 draws / 55 flashes, 0 not on Proteus copper (0 explained by pad shape)
+
+== plated drills: Proteus 55, KiCad 55, matched 55 within 0.05 mm
+     17 x Proteus 0.2540 mm -> KiCad 0.2540 mm
+     30 x Proteus 0.5588 mm -> KiCad 0.5580 mm
+      8 x Proteus 0.7620 mm -> KiCad 0.7620 mm
