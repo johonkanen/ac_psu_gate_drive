@@ -91,7 +91,7 @@ The board is within JLC's 2-layer limits (0.10 mm track/space, 0.15/0.25 mm via)
    most sockets but carry SDM_RAW_VOLTAGE (J2-39), ISO_AFE_SDM_RAW_VOLTAGE (J8-39) and
    ISO_DAB_SDM_RAW_VOLTAGE (J4-25): a gate-driver board in J2/J8/J4 puts its floating gate
    supply on those signals. Check whether that is intended (maybe a different board goes there).
-   The other pins mate as expected (43/44, 45/46, 47/48 swap; J9-47 "15V" = baseboard 20V).
+   The other pins mate as expected (43/44, 45/46, 47/48 swap; J9-47 "15V" = baseboard net "20V", which is 15–17 V (user, 2026-11-03)).
 4. J9 drill 0.558 mm (Proteus) for 0.4 mm square header pins (diagonal 0.57 mm) is tight; KiCad's
    library drill is 0.65 but its 1.0 mm pads collide with the Proteus tracks. Kept as Proteus.
 5. C1–C4 are 0603 4.7 µF: at ~15 V DC bias an X5R 25 V 0603 keeps roughly 1 µF.

@@ -105,6 +105,6 @@ flagged_power(sh, "GND", JX - g(10), JY + g(46))
 
 sh.text("PDF labels pwm_hi/lo, drv1/2_vcc, Gate_HI/LO, Source_LO, 5v = nets PWM_HI/LO, DRV1/2_VCC,\n"
         "GATE_HI/LO, SOURCE_LO, 5V. J9 mates face to face with the baseboard J1-J4/J6/J8 (ac_psu):\n"
-        "pins 43/44, 45/46, 47/48 swap; J9-47 '15V' is the baseboard's 20V rail.", g(20), g(130))
+        "pins 43/44, 45/46, 47/48 swap; J9-47 '15V' is the baseboard net 20V (15-17 V).", g(20), g(130))
 sh.save()
 print("sheet01: written")
