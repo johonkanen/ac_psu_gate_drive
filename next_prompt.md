@@ -17,9 +17,9 @@ Verify first: tools/check_all.sh must end with ALL CHECKS PASSED, with at handof
   roundtrip: only pad-shape clusters, drills 0 mismatches
 
 Open for the user (ask, do not change without an answer):
-1. The Si8271 variant (UVLO letter; fab BOM has SI8271AB-ISR provisionally, DB suggested for the
-   17.5-20.5 V VDD2-GND2 supply). D6/D7 are 16 V in the BOM (user rails +14.5..16 / -3..-4.5 V).
-2. DRV3 IXDD609D2TR has no JLC stock: distributor + hand-solder/consign, or redesign.
+1. Done: SI8271DB-ISR (user); D6/D7 16 V in the BOM (user rails +14.5..16 / -3..-4.5 V).
+2. DRV3 IXDD609D2TR has no JLC stock: distributor + hand-solder/consign, or a board change to the
+   stocked SOIC-8 IXDN609SIATR / IXDD609SIATR (fab/README.md).
 3. Baseboard pins 25/39 carry SDM_RAW_VOLTAGE signals on J2/J8/J4 and meet DRV1/2_VCC (finding 3).
 4. Push only when the user asks.
 5. Later (separate step): the noise fixes of ac_psu reports/noise/README.md finding 9 (local CM

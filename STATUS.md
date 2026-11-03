@@ -98,10 +98,9 @@ The board is within JLC's 2-layer limits (0.10 mm track/space, 0.15/0.25 mm via)
 
 ## Open questions for the user
 
-- The Si8271 variant: BOM has SI8271AB-ISR (5 V output UVLO) provisionally; with VDD2–GND2 = 17.5–20.5 V
-  SI8271DB-ISR (12 V UVLO, C461855) is the suggestion.
-- DRV3 IXDD609D2TR: buy from a distributor (hand-solder or consign), or a later redesign for an
-  in-stock package.
+- DRV3 IXDD609D2TR: buy from a distributor (hand-solder or consign), or change the board to the SOIC-8
+  IXDN609SIATR / IXDD609SIATR stocked at JLC (same pin numbering; fab/README.md). Si8271: SI8271DB-ISR
+  (user, 2026-11-03).
 - Finding 3 (baseboard pins 25/39).
 
 ## Last verification (`tools/check_all.sh`)

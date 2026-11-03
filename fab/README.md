@@ -19,11 +19,11 @@ Part choices (open points in STATUS.md "Open questions"):
 
 | Ref | Design | BOM | Note |
 |---|---|---|---|
-| DRV1, DRV2 | SI8271 (no suffix in Proteus) | SI8271AB-ISR (C17275034, 5 V output UVLO) | **provisional**: the variant letter sets the output UVLO (A 5 V, B 8 V, D 12 V, G 3 V); VDD2–GND2 is 17.5–20.5 V (user's rails), so B (8 V) or D (12 V) both protect; DB-ISR (C461855, most stock) is the suggestion – user to confirm the variant. |
+| DRV1, DRV2 | SI8271 (no suffix in Proteus) | **SI8271DB-ISR (C461855)** | User 2026-11-03. Output UVLO letter D (A 5 V, B 8 V, D 12 V, G 3 V per the ordering-guide rows seen; check the datasheet table): VDD2–GND2 is 17.5–20.5 V with the user's rails. |
 | D6, D7 | MMSZ5228BS-7-F (3.9 V) | **MMSZ5246BS-7-F 16 V (C151819)** | Positive-rail clamps (VCC–SOURCE). User 2026-11-03: rails +14.5…16 V / −3…−4.5 V, so the 3.9 V part was wrong here; 16 V (15.2–16.8 V) stays off inside the range (a 15 V part, 14.25–15.75 V, would conduct). The schematic still shows the Proteus value (STATUS.md finding 1). |
 | D5, D8 | MMSZ5228BS-7-F (3.9 V) | C2895358, as designed | Negative-rail clamps, 3.71–4.1 V: inside −3…−4.5 V. |
 | C1–C4 | 4.7u (0603) | 25 V X5R (C5360844) | C1/C4 carry the positive rail; at 15 V DC bias an 0603 X5R keeps roughly 1 µF. |
 | C7, C8 | 4.7u / 100n (1206) | 50 V X7R basic parts | 15 V rail |
 | R2/R5, R4/R12 | 3R / 22R 1206 | C17939 / C17958 | |
-| DRV3 | IXDD609D2TR | hand-fit (`hand_fit.csv`) | JLC: 0 stock; Mouser/Digikey, hand-solder or consign |
+| DRV3 | IXDD609D2TR | hand-fit (`hand_fit.csv`) | JLC: 0 stock; Mouser/Digikey, hand-solder or consign. No footprint-compatible part at JLC (2026-11-03). In stock, same pin numbering but SOIC-8 (board change): IXDN609SIATR (C5242049, 2194; pin 3 NC – EN is tied to VCC here anyway) and IXDD609SIATR (C2677099, 50; with EN). TC4452/MIC4452/TC4422 are rated 18 V max: too low for the baseboard's 20 V rail on J9-47. |
 | J9 | HB GT connector | 2×17 1.27 mm male THT header C27985217, hand-fit | clip pins 27/28 and 41/42 (no holes) |

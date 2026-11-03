@@ -5,7 +5,7 @@
   "refs": "R1,R3,R6,R8,R9,R10,R11",
   "code": "C25804",
   "need": 35,
-  "stock": 46332702,
+  "stock": 46300552,
   "type": "base",
   "mpn": "0603WAF1002T5E",
   "describe": "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
@@ -16,7 +16,7 @@
   "refs": "R4,R12",
   "code": "C17958",
   "need": 10,
-  "stock": 599024,
+  "stock": 599099,
   "type": "base",
   "mpn": "1206W4F220JT5E",
   "describe": "-55℃~+155℃ 200V 22Ω 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
@@ -27,7 +27,7 @@
   "refs": "R2,R5",
   "code": "C17939",
   "need": 10,
-  "stock": 52773,
+  "stock": 53033,
   "type": "expand",
   "mpn": "1206W4F300KT5E",
   "describe": "-55℃~+155℃ 200V 250mW 3Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
@@ -38,7 +38,7 @@
   "refs": "C5,C6,C12",
   "code": "C14663",
   "need": 15,
-  "stock": 39420408,
+  "stock": 39410621,
   "type": "base",
   "mpn": "CC0603KRX7R9BB104",
   "describe": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
@@ -71,7 +71,7 @@
   "refs": "C8",
   "code": "C24497",
   "need": 5,
-  "stock": 1253444,
+  "stock": 1253043,
   "type": "base",
   "mpn": "CL31B104KBCNNNC",
   "describe": "100nF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
@@ -111,14 +111,14 @@
  },
  {
   "source": "bom",
-  "comment": "SI8271AB-ISR",
+  "comment": "SI8271DB-ISR",
   "refs": "DRV1,DRV2",
-  "code": "C17275034",
+  "code": "C461855",
   "need": 10,
-  "stock": 89,
+  "stock": 3376,
   "type": "expand",
-  "mpn": "SI8271AB-ISR",
-  "describe": "-40℃~+125℃ 1 1.8A 10.5ns 13.3ns 4A SOIC-8 Gate Drivers ROHS"
+  "mpn": "SI8271DB-ISR",
+  "describe": "-40℃~+125℃ 1 2.5V~5.5V 200kV/us 2500 4.2V~30V 60ns Fail-safe output、Power-on reset Low Level SOIC-8 Digital Isolators ROHS"
  },
  {
   "source": "hand",
