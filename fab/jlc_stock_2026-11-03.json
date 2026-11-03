@@ -5,7 +5,7 @@
   "refs": "R1,R3,R6,R8,R9,R10,R11",
   "code": "C25804",
   "need": 35,
-  "stock": 46335661,
+  "stock": 46332702,
   "type": "base",
   "mpn": "0603WAF1002T5E",
   "describe": "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
@@ -16,7 +16,7 @@
   "refs": "R4,R12",
   "code": "C17958",
   "need": 10,
-  "stock": 599124,
+  "stock": 599024,
   "type": "base",
   "mpn": "1206W4F220JT5E",
   "describe": "-55℃~+155℃ 200V 22Ω 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
@@ -27,7 +27,7 @@
   "refs": "R2,R5",
   "code": "C17939",
   "need": 10,
-  "stock": 53623,
+  "stock": 52773,
   "type": "expand",
   "mpn": "1206W4F300KT5E",
   "describe": "-55℃~+155℃ 200V 250mW 3Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
@@ -38,7 +38,7 @@
   "refs": "C5,C6,C12",
   "code": "C14663",
   "need": 15,
-  "stock": 39420656,
+  "stock": 39420408,
   "type": "base",
   "mpn": "CC0603KRX7R9BB104",
   "describe": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
@@ -60,7 +60,7 @@
   "refs": "C7",
   "code": "C29823",
   "need": 5,
-  "stock": 757113,
+  "stock": 757090,
   "type": "base",
   "mpn": "1206B475K500NT",
   "describe": "4.7uF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
@@ -71,7 +71,7 @@
   "refs": "C8",
   "code": "C24497",
   "need": 5,
-  "stock": 1253085,
+  "stock": 1253444,
   "type": "base",
   "mpn": "CL31B104KBCNNNC",
   "describe": "100nF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
@@ -90,13 +90,24 @@
  {
   "source": "bom",
   "comment": "MMSZ5228BS-7-F",
-  "refs": "D5,D6,D7,D8",
+  "refs": "D5,D8",
   "code": "C2895358",
-  "need": 20,
+  "need": 10,
   "stock": 2554,
   "type": "expand",
   "mpn": "MMSZ5228BS-7-F",
   "describe": "-65℃~+150℃ 1 Independent 1.9kΩ 10uA@1V 200mW 23Ω 3.71V~4.1V 3.9V SOD-323 Zener Diodes ROHS"
+ },
+ {
+  "source": "bom",
+  "comment": "MMSZ5246BS-7-F",
+  "refs": "D6,D7",
+  "code": "C151819",
+  "need": 10,
+  "stock": 26768,
+  "type": "expand",
+  "mpn": "MMSZ5246BS-7-F",
+  "describe": "-65℃~+150℃ 1 Independent 100nA 15.2V~16.8V 16V 17Ω 200mW 600Ω SOD-323 Zener Diodes ROHS"
  },
  {
   "source": "bom",

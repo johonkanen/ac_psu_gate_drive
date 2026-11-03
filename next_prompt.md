@@ -3,7 +3,7 @@
 Ready-to-paste prompt for the next agent session.
 
 ```
-Work in /home/jari/dev/gate_drive_kicad (KiCad 10.0.7 conversion of the Proteus gate-driver board
+Work in /home/jari/dev/ac_psu_gate_drive (GitHub johonkanen/ac_psu_gate_drive; KiCad 10.0.7 conversion of the Proteus gate-driver board
 gate_drive_power_asym_fb_v3_ee10; phases 0-4 and the JLC files are done). Read README.md, PLAN.md,
 STATUS.md (findings and open questions) and fab/README.md. Never run the KiCad AppImage with --version.
 
@@ -17,11 +17,11 @@ Verify first: tools/check_all.sh must end with ALL CHECKS PASSED, with at handof
   roundtrip: only pad-shape clusters, drills 0 mismatches
 
 Open for the user (ask, do not change without an answer):
-1. D6/D7 MMSZ5228BS (3.9 V) clamp the positive gate rail (STATUS finding 1); the Si8271 variant
-   (UVLO letter; fab BOM has SI8271AB-ISR provisionally).
+1. The Si8271 variant (UVLO letter; fab BOM has SI8271AB-ISR provisionally, DB suggested for the
+   17.5-20.5 V VDD2-GND2 supply). D6/D7 are 16 V in the BOM (user rails +14.5..16 / -3..-4.5 V).
 2. DRV3 IXDD609D2TR has no JLC stock: distributor + hand-solder/consign, or redesign.
 3. Baseboard pins 25/39 carry SDM_RAW_VOLTAGE signals on J2/J8/J4 and meet DRV1/2_VCC (finding 3).
-4. Push: the user creates the GitHub repo first.
+4. Push only when the user asks.
 5. Later (separate step): the noise fixes of ac_psu reports/noise/README.md finding 9 (local CM
    return capacitor, CM choke in the 15 V feed, low-capacitance gate-supply transformer). From then
    on the board deviates from Proteus: add an explicit deviation list as in ac_psu v4

@@ -1,4 +1,4 @@
-# gate_drive_kicad
+# ac_psu_gate_drive
 
 KiCad 10.0.7 conversion of the Proteus half-bridge gate-driver board
 `gate_drive_power_asym_fb_v3_ee10` (2 × Si8271 isolated gate drivers, IXDD609 driving a hand-wound

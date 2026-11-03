@@ -2,6 +2,8 @@
 
 Updated: 2026-11-03 (Phases 0–4 and the JLC files done in one session, Opus 5.5; ALL CHECKS PASSED)
 
+Repository: https://github.com/johonkanen/ac_psu_gate_drive (local ~/dev/ac_psu_gate_drive).
+
 ## Decisions (user, 2026-11-03)
 
 - Convert the asymmetric board `V3_ee10` only (not the DCM variant).
@@ -71,7 +73,10 @@ The board is within JLC's 2-layer limits (0.10 mm track/space, 0.15/0.25 mm via)
 
 ## Findings (reported, not changed – principle 7)
 
-1. **D6 / D7 (MMSZ5228BS-7-F, 3.9 V zener) sit across DRV2_VCC–SOURCE_LO / DRV1_VCC–SOURCE_HI**
+1. **Resolved in the BOM (user, 2026-11-03: rails +14.5…16 V and −3…−4.5 V):** D6 / D7 → MMSZ5246BS-7-F 16 V
+   in `fab/jlc_bom.csv`; the schematic keeps the Proteus value (changing it is the first deviation from
+   Proteus – do it together with the finding-9 noise changes and a deviation list). Original finding:
+   **D6 / D7 (MMSZ5228BS-7-F, 3.9 V zener) sit across DRV2_VCC–SOURCE_LO / DRV1_VCC–SOURCE_HI**
    (cathode on VCC). As drawn they clamp the positive gate rail to about 3.9 V; D5 / D8 (same
    part) clamp the negative rail to −3.9 V, which fits an asymmetric supply. From the turns ratio
    (8t primary driven ±7.5 V through C12; the positive diode on a 16t or 12t tap) the positive
@@ -93,11 +98,11 @@ The board is within JLC's 2-layer limits (0.10 mm track/space, 0.15/0.25 mm via)
 
 ## Open questions for the user
 
-- D6/D7 value (finding 1) and the Si8271 variant (BOM has SI8271AB-ISR, 5 V UVLO, provisional).
+- The Si8271 variant: BOM has SI8271AB-ISR (5 V output UVLO) provisionally; with VDD2–GND2 = 17.5–20.5 V
+  SI8271DB-ISR (12 V UVLO, C461855) is the suggestion.
 - DRV3 IXDD609D2TR: buy from a distributor (hand-solder or consign), or a later redesign for an
   in-stock package.
 - Finding 3 (baseboard pins 25/39).
-- GitHub: create the repo (e.g. johonkanen/gate_drive_kicad) before the first push.
 
 ## Last verification (`tools/check_all.sh`)
 
