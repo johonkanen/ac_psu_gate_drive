@@ -16,3 +16,6 @@ build/
 reports/erc.rpt
 reports/drc.json
 fab/out/
+dcm/reports/erc.rpt
+dcm/reports/drc.json
+dcm/fab/out/

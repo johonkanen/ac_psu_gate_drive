@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "gate_drive")(type "KiCad")(uri "${KIPRJMOD}/../lib/gate_drive.kicad_sym")(options "")(descr "Project symbols, pin ids = IPC"))
+)

@@ -10,6 +10,8 @@ to face into the ac_psu baseboard's J1–J4/J6/J8 (`~/dev/ac_psu_kicad`).
 - `fab/` – JLCPCB BOM / CPL / gerbers and the hand-fit list (`fab/README.md`).
 - `tools/check_all.sh` – every check (IPC netlist, ERC, footprints, board, DRC, IPC-356 diff,
   gerber round trip); must end with `ALL CHECKS PASSED`.
+- `dcm/` – the DCM variant `gate_drive_power_dcm_fb_v3_ee10` (Q1 MMBT3904 primary switch instead of
+  DRV3), converted the same way as a self-contained subproject; see `dcm/README.md`.
 - `PLAN.md`, `STATUS.md`, `next_prompt.md` – plan, state and findings, next session prompt.
 
 Tools: the proteus2kicad submodule `tools/p2k` (`git submodule update --init`); KiCad AppImage

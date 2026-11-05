@@ -9,8 +9,8 @@ Method: the proteus2kicad playbook `tools/p2k/CONVERSION_PLAYBOOK.md` (phases 0â
 shared tools of the submodule `tools/p2k` and the board values in `p2k_config.py`, as in
 `~/dev/ac_psu_kicad` and `~/dev/tube_psu_kicad`. Only what is specific to this board is here.
 
-Scope (user, 2026-11-03): the asymmetric-supply board only (`V3_ee10`); the DCM variant
-(`V3_ee10/dcm/gate_drive_power_dcm_fb_v3_ee10`) is not converted. J9 is a male header. Later,
+Scope (user, 2026-11-03): the asymmetric-supply board (`V3_ee10`). Later the same day (user): the
+DCM variant (`V3_ee10/dcm/gate_drive_power_dcm_fb_v3_ee10`) too, in `dcm/` (`dcm/README.md`). J9 is a male header. Later,
 not in this conversion: the noise fixes of ac_psu `reports/noise/README.md` finding 9.
 
 ## 1. Inventory (checked 2026-11-03)

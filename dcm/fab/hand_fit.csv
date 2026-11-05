@@ -1,0 +1,3 @@
+Comment,Designator,Footprint,Source,Note
+"Gate supply toroid 10/6/4 (primary J1-J2, 2 x secondary 12t + 4t as on the asym board)",(J1-J8 wire pads),wire pads 1.27 mm / drill 0.762,wound by the user,"leads soldered into J1-J8 (see sheet 2 note; the DCM project has no PDF, so the turns of the DCM primary are not documented); not a BOM part"
+"1.27mm 2x17 male pin header, THT (HC-PM127-4.3H-2x17PZ)",J9,PinHeader 2x24 P1.27 partial (pins 15-48),"JLC C27985217 or distributor","male (as the asym board, user 2026-11-03), mates with the baseboard's female 2x24 sockets; the footprint has no holes for pins 27/28/41/42: clip those 4 pins (columns 7 and 14 from the pin 15/16 end) before fitting"

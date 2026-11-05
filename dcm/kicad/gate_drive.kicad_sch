@@ -1,0 +1,113 @@
+(kicad_sch
+	(version 20260101)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4297c93c-754b-4d28-b43b-beae3af28bd9")
+	(paper "A3")
+	(title_block
+		(title "Half-bridge gate driver, DCM gate supply")
+		(company "gate_drive_power_asym_fb")
+		(rev "V3_ee10 dcm")
+		(comment 1 "Redrawn from Proteus gate_drive_power_dcm_fb_v3_ee10")
+	)
+	(lib_symbols)
+	(text "Half-bridge gate driver V3_ee10 DCM variant - redrawn from Proteus. One sheet per Proteus PDF page.\nNet names follow the IPC-D-356A netlist (reference/pins_by_net.md)."
+		(exclude_from_sim no)
+		(at 25.4 22.86 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f9f8e9a-1d01-4799-9f9c-420afeadbccb")
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 76.2 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3b834511-8e85-40ee-abc4-9b5315bc6cc5")
+		(property "Sheetname" "01 Gate drivers"
+			(at 25.4 37.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_gate_drivers.kicad_sch"
+			(at 25.4 59.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gate_drive"
+				(path "/4297c93c-754b-4d28-b43b-beae3af28bd9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 38.1)
+		(size 76.2 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "45af38fc-3e52-4ba6-a129-b04e4d95adb0")
+		(property "Sheetname" "02 Gate supply"
+			(at 152.4 37.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_gate_supply.kicad_sch"
+			(at 152.4 59.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gate_drive"
+				(path "/4297c93c-754b-4d28-b43b-beae3af28bd9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

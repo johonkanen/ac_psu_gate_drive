@@ -4,7 +4,7 @@ Ready-to-paste prompt for the next agent session.
 
 ```
 Work in /home/jari/dev/ac_psu_gate_drive (GitHub johonkanen/ac_psu_gate_drive; KiCad 10.0.7 conversion of the Proteus gate-driver board
-gate_drive_power_asym_fb_v3_ee10; phases 0-4 and the JLC files are done). Read README.md, PLAN.md,
+gate_drive_power_asym_fb_v3_ee10 and, in dcm/, its DCM variant gate_drive_power_dcm_fb_v3_ee10; phases 0-4 and the JLC files are done for both). Read README.md, PLAN.md,
 STATUS.md (findings and open questions) and fab/README.md. Never run the KiCad AppImage with --version.
 
 Verify first: tools/check_all.sh must end with ALL CHECKS PASSED, with at handoff:
@@ -26,6 +26,10 @@ Open for the user (ask, do not change without an answer):
    return capacitor, CM choke in the 15 V feed, low-capacitance gate-supply transformer). From then
    on the board deviates from Proteus: add an explicit deviation list as in ac_psu v4
    (lib/v4_deviations.csv / v4_copper.csv pattern) and freeze the generated board.
+
+6. DCM variant in dcm/ (dcm/README.md): run dcm/tools/check_all.sh too (ALL CHECKS PASSED). Open there:
+   R7 10k in the RCD clamp (10R?), Q1 base drive (~0.3 mA through R11 10k), the DCM toroid windings.
+7. ZLLS400TA (C460267) stock at JLC was 2 on 2026-11-03 afternoon: pick a replacement with the user.
 
 Done when: the chosen points are implemented, tools/check_all.sh passes, fab/ regenerated
 (fab/make_fab.sh, python3 fab/jlc_bom_check.py 5) if the BOM changed, STATUS.md has a short

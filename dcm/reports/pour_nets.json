@@ -1,0 +1,66 @@
+[
+ {
+  "layer": "F.Cu",
+  "index": 0,
+  "net": "GATE_HI",
+  "order": 0,
+  "width": 0.1524,
+  "group": 17
+ },
+ {
+  "layer": "F.Cu",
+  "index": 1,
+  "net": "SOURCE_HI",
+  "order": 9,
+  "width": 0.1524,
+  "group": 31
+ },
+ {
+  "layer": "F.Cu",
+  "index": 2,
+  "net": "SOURCE_LO",
+  "order": 18,
+  "width": 0.1016,
+  "group": 34
+ },
+ {
+  "layer": "F.Cu",
+  "index": 3,
+  "net": "GATE_LO",
+  "order": 25,
+  "width": 0.1016,
+  "group": 19
+ },
+ {
+  "layer": "F.Cu",
+  "index": 4,
+  "net": "/01 Gate drivers/D1-",
+  "order": 34,
+  "width": 0.1524,
+  "group": 5
+ },
+ {
+  "layer": "F.Cu",
+  "index": 5,
+  "net": "/01 Gate drivers/D1+",
+  "order": 37,
+  "width": 0.1524,
+  "group": 6
+ },
+ {
+  "layer": "F.Cu",
+  "index": 6,
+  "net": "/01 Gate drivers/D2-",
+  "order": 40,
+  "width": 0.1524,
+  "group": 13
+ },
+ {
+  "layer": "F.Cu",
+  "index": 7,
+  "net": "/01 Gate drivers/D2+",
+  "order": 43,
+  "width": 0.1524,
+  "group": 14
+ }
+]

@@ -6,7 +6,8 @@ Repository: https://github.com/johonkanen/ac_psu_gate_drive (local ~/dev/ac_psu_
 
 ## Decisions (user, 2026-11-03)
 
-- Convert the asymmetric board `V3_ee10` only (not the DCM variant).
+- Convert the asymmetric board `V3_ee10`; later the same day also the DCM variant → `dcm/`
+  (all checks pass there, findings and open points in `dcm/README.md`).
 - J9 is a **male** header (the ac_psu baseboard has the female sockets).
 - JLC parts list for every part except the hand-wound toroid.
 - Proteus pad sizes where KiCad pads collide with Proteus copper: carried over from the ac_psu /
@@ -102,6 +103,9 @@ The board is within JLC's 2-layer limits (0.10 mm track/space, 0.15/0.25 mm via)
   IXDN609SIATR / IXDD609SIATR stocked at JLC (same pin numbering; fab/README.md). Si8271: SI8271DB-ISR
   (user, 2026-11-03).
 - Finding 3 (baseboard pins 25/39).
+- ZLLS400TA (C460267, D1-D4): JLC stock fell to 2 on 2026-11-03 (2012 in the morning stock check);
+  short for 5 boards. Wait, buy elsewhere, or take ZLLS400QTA (C151560, 36 in stock) / another
+  SOD-323 40 V Schottky (also D9 on the DCM board).
 
 ## Last verification (`tools/check_all.sh`)
 

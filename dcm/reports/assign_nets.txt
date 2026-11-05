@@ -1,0 +1,13 @@
+== stage A: pads + tracks + vias (Proteus pad flashes)
+items 590, groups 36, shorts 0, orphans 0, opens 5
+  open /01 Gate drivers/D1-: 2 groups [DRV1-6] [R2-1]
+  open GATE_HI: 5 groups [R2-2] [J9-21 J9-22 J9-23 J9-24] [J9-25] [R6-1] [R12-2]
+  open GATE_LO: 4 groups [R4-2] [R5-2] [J9-35 J9-36 J9-37 J9-38 R8-1] [J9-39]
+  open SOURCE_HI: 2 groups [C1-2 C2-1 D7-A D8-C J5-1 ...] [J9-19]
+  open SOURCE_LO: 2 groups [C3-1 C4-2 D5-C D6-A J8-1 ...] [J9-33]
+== stage B: + Proteus pours
+items 598, groups 26, shorts 0, orphans 0, opens 0
+== assignment: 471 tracks/vias got a net, 0 without
+== after zone fill (KiCad pads, tracks, vias, filled zones)
+items 598, groups 26, shorts 0, orphans 0, opens 0
+items carrying another net than their group: 0
